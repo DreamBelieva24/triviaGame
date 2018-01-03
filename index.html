@@ -10,28 +10,81 @@
         crossorigin="anonymous">
     <!-- Custom -->
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 
     <title>Trivia Game</title>
 </head>
+
 <body>
-
-<h1>Trivia Game!</h1>
-
-<div>Time Remaining: <div id = "timer"></div> seconds
+        <div class="container-fluid">
+    
+            <h1><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Teen_Titans_Go%21_horizontal_logo.svg/1200px-Teen_Titans_Go%21_horizontal_logo.svg.png"></h1>
+        
+<br>
+        <div class="row">
+            <div class="col-md-3">
+               Time Remaining: 
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-md-3">
+                 
+                    <div id="timer"></div>seconds
+                
+            </div>
+        </div>
+            </div>
+<br>
+<article>
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>
+                        <div id="question">Question Here</div>
+                    </h3>
+                </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-6">
+                            <button type="button" class="btn btn-info"><h3>
+    <div id="c1">Choice 1</div>
+                        </h3></button>
+                    </div>
+                
+                    
+                        <div class="col-md-6">
+                                <button type="button" class="btn btn-info"><h3>
+                                <div id="c2">Choice 2</div>
+                            </h3></button>
+                        </div>
+                    </div>
+                        
+                        <br>
+                        <div class="row">
+                            <div class="col-md-6">
+                                    <button type="button" class="btn btn-info"><h3>
+                                    <div id="c3">Choice 3</div>
+                                </h3></button>
+                            </div>
+                            
+                            
+                            
+                                <div class="col-md-6">
+                                        <button type="button" class="btn btn-info"><h3>
+                                        <div id="c4">Choice 4</div>
+                                    </h3></button>
+                                </div>
+                            </div>
+                            </article>
+                                </div>
 </div>
 
-<div id = "question">Question Here</div>
-
-<div id = "c1">Choice 1</div>
-<div id = "c2">Choice 2</div>
-<div id = "c3">Choice 3</div>
-<div id = "c4">Choice 4</div>
-
-
-
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous"></script>
-    <script src="assets/javascript/app.js"></script>
+<footer id = "footer">         
+        <audio id= "audio" autoplay src=""></audio>
+ </footer>
+                                <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+                                    crossorigin="anonymous"></script>
+                                <script src="assets/javascript/app.js"></script>
 </body>
 
 </html>
